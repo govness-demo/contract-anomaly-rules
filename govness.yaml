@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "co-datos-publicos.contract-anomaly-rules"
+name: "Public contract anomaly rules"
+type: "policy"
+version: "2.0.0"
+summary: "Red-flag rules for public contracts (single bidders, split contracts, late amendments) as reviewable code."
+description: "Twenty-two red-flag indicators with their legal basis and thresholds, written as rules an agent or analyst can run and explain."
+publisher:
+  environment: "co-datos-publicos"
+  body: "Agencia de Datos Públicos de Colombia"
+languages: ["es", "en"]
+license: "CC-BY-4.0"
+interfaces:
+  protocol: "other"
+links:
+  repo: "https://github.com/govness-demo/contract-anomaly-rules"
+domains: ["public-procurement", "ai-governance"]
